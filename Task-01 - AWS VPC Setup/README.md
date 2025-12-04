@@ -26,3 +26,6 @@ Create a basic AWS network architecture using Terraform that includes:
 
 - **192.168.0.0/16** gives ~65,536 IP addresses which is flexible for future expansion of subnets.
 - Each subnet uses **/20** (4096 IPs) — best practice for small public/private workloads.
+
+### VPC Screenshot AWS
+![VPC](https://github.com/Alokpatel07/Flents_Assignment_AlokPatel/blob/main/Task-01%20-%20AWS%20VPC%20Setup/Screenshots/VPC.png)
