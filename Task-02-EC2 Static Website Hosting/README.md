@@ -21,6 +21,32 @@ The following resources were used in this setup:
 
 ---
 
+
+## Basic Infrastructure Hardening (AWS Best Practices)
+
+**IAM & Access**
+- Use IAM Roles for EC2 
+
+**Security Groups**
+- Allow HTTP (80) to public only if needed
+- Restrict SSH (22) to *your IP only*
+- Block all unused ports
+
+**OS Hardening**
+- Keep Amazon Linux & Nginx updated
+
+**Backups**
+- Take regular EBS snapshots
+- Don’t store sensitive data on EC2
+
+**Monitoring**
+- Enable CloudWatch logs & metrics
+
+**Key Management**
+- Use SSH key pair (no password login)
+
+
+
 ### EC2 Screenshot AWS
 ![EC2](https://github.com/Alokpatel07/Flentas_Assignment_AlokPatel/blob/main/Task-02-EC2%20Static%20Website%20Hosting/SS/EC2_Instance.png)
 
